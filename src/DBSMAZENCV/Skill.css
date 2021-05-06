@@ -1,0 +1,880 @@
+@media (min-width:415px){
+.MySkill{
+    width: 90%;
+    height:fit-content;    
+    margin-top: 15px;
+    margin-bottom: 120px;
+}
+.MySkill .headSkills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.MySkill .Line{
+    background-color: black;
+    width: 45%;
+    height: 2px;
+}
+
+.MySkill .headSkills h2{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width:150px;
+    color:black;
+    background-color: white;
+    border-width: 2px;
+    border-color:var(--maincolornav);
+    box-shadow: var(--maincolornav) 0px 1px 15px;
+    border-style: solid;
+
+}
+.MySkill .Skills{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.MySkill .Front-End{
+    border-top-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    padding-left: 7px;
+    background-color:var(--maincolornav);
+    color:white;
+    width: 420px;
+    box-shadow: var(--maincolornav) 0px 1px 15px;
+}
+.MySkill .Backend{
+    border-bottom-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding-left: 7px;
+    background-color:var(--maincolornav);
+    color:white;
+    width: 420px;
+    box-shadow: var(--maincolornav) 0px 1px 15px;
+}
+.MySkill .Skills .Front-End h2{
+    display: flex;
+    justify-content: center;
+    margin-top:35px;
+    margin-bottom: 35px;
+
+}
+.MySkill .Skills .Front-End p{
+   margin: 0px;
+   padding-left: 20px;
+   font-size: 17px;
+   font-weight: 600;
+}
+.MySkill .Skills .Backend h2{
+    display: flex;
+    justify-content: center;
+    margin-top:35px;
+    margin-bottom: 35px;
+    
+}
+.MySkill .Skills .Backend p{
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    
+
+}
+.MySkill .Skills .Front-End .HTML .prohtml .Icon,.procss .Icon,.proReact .Icon,.proBootStrap .Icon,.projs .Icon,.proBootStrap .Icon,.prophp .Icon,.prodatabase .Icon , .proAnlayicAlgoritme .Icon , .proLaravel .Icon , .proGit .Icon{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    position: relative;
+    animation-name:htmlIcon;
+    animation-duration: 1s;
+    animation-timing-function:ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+
+.MySkill .Skills .Front-End .HTML{
+    margin: 20px  auto;
+    display: flex;
+    width: 93%;
+    height: 9px;
+    border-radius: 5px;
+    background-color: black;
+}
+.MySkill .Skills .Front-End .HTML .Value,.CSS .Value,.JavaScript .Value,.React .Value , .BootStrap .Value,.Backend .PHP .Value, .DATABASE .Value,.AnlayicAlgoritme .Value , .Laravel .Value , .Git .Value{
+    position: relative;
+    top:-24px;
+    left:-9px;
+}
+.MySkill .Skills .Front-End .HTML .prohtml{
+    animation-name:html;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+    border-radius: 5px;
+}
+@keyframes htmlIcon{
+    from{
+        top: -9px;
+        left: 0%;
+    }
+  to{
+       top: -9px;
+       left: calc(97%);
+    }
+}
+@keyframes html{
+    from{
+        height: 9px;
+        width:0%;
+        border-radius: 5px;
+        background-color:var(--maincolorpr);
+    }
+  to{
+       height: 9px;
+       width: 90%;
+       border-radius: 5px;
+       background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Front-End .CSS
+{
+    margin: 20px  auto;
+    display: flex;
+    width: 93%;
+    height: 9px;
+    border-radius: 5px;
+    background-color: black;
+
+}
+.MySkill .Skills .Front-End .CSS .procss{
+    animation-name:css;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+    height: 9px;
+    border-radius: 5px;
+}
+
+@keyframes css{
+    from{
+    
+        width:0%;
+        background-color:var(--maincolorpr);
+        height: 9px;
+        border-radius: 5px;
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+        width: 80%;
+        background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Front-End .JavaScript{
+    margin: 20px  auto;
+    display: flex;
+    width: 93%;
+    height: 9px;
+    border-radius: 5px;
+    background-color: black;
+}
+.MySkill .Skills .Front-End .JavaScript .projs{
+    animation-name: javascript;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+    height: 9px;
+    border-radius: 5px;
+}
+
+@keyframes javascript{
+    from{
+        height: 9px;
+        border-radius: 5px;
+        width:0%;
+        background-color:var(--maincolorpr);
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+       width: 83%;
+    
+       background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Front-End .React{
+    margin: 20px  auto;
+    display: flex;
+    width: 93%;
+    height: 9px;
+    border-radius: 5px;
+    background-color: black;
+}
+.MySkill .Skills .Front-End .React .proReact{
+    animation-name:React;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+    height: 9px;
+    border-radius: 5px;
+}
+
+@keyframes React{
+    from{
+    
+        width:0%;
+        background-color:var(--maincolorpr);
+        height: 9px;
+        border-radius: 5px;
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+        width: 88%;
+        background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Front-End .BootStrap
+{
+    margin: 20px  auto;
+    display: flex;
+    width: 93%;
+    height: 9px;
+    border-radius: 5px;
+    background-color: black;
+
+}
+.MySkill .Skills .Front-End .BootStrap .proBootStrap{
+    animation-name:BootStrap;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+    height: 9px;
+    border-radius: 5px;
+}
+
+@keyframes BootStrap{
+    from{
+    
+        width:0%;
+        background-color:var(--maincolorpr);
+        height: 9px;
+        border-radius: 5px;
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+        width:87%;
+        background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Backend .PHP{
+    margin: 20px  auto;
+    display: flex;
+    width: 90%;
+    height: 9px;
+    border-radius: 5px;
+    background-color: black;
+}
+.MySkill .Skills .Backend .PHP .prophp{
+    animation-name:php;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+
+@keyframes php{
+    from{
+        height: 9px;
+        border-radius: 5px;
+        width:0%;
+        background-color:var(--maincolorpr);
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+        width: 77%;
+        background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Backend .DATABASE
+{
+    margin: 20px  auto;
+    display: flex;
+    width: 90%;
+    height: 9px;
+    border-radius: 5px;
+    background-color: black;
+
+}
+.MySkill .Skills .Backend .DATABASE .prodatabase{
+    animation-name:database;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+
+@keyframes database{
+    from{
+        height: 9px;
+        border-radius: 5px;
+        width:0%;
+        background-color:var(--maincolorpr);
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+       width: 89%;
+       background-color: var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Backend .AnlayicAlgoritme{
+    margin: 20px  auto;
+    display: flex;
+    width: 90%;
+    height: 9px;
+    border-radius: 5px; 
+    background-color: black;
+}
+.MySkill .Skills .Backend .AnlayicAlgoritme .proAnlayicAlgoritme{
+    animation-name: AnlayicAlgoritme;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+
+@keyframes AnlayicAlgoritme{
+    from{
+        height: 9px;
+        border-radius: 5px;
+        width:0%;
+        background-color: var(--maincolorpr);
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+       width: 80%;
+       background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Backend .Laravel{
+    margin: 20px  auto;
+    display: flex;
+    width: 90%;
+    height: 9px;
+    border-radius: 5px; 
+    background-color: black;
+}
+.MySkill .Skills .Backend .Laravel .proLaravel{
+    animation-name: Laravel;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+
+@keyframes Laravel{
+    from{
+        height: 9px;
+        border-radius: 5px;
+        width:0%;
+        background-color: var(--maincolorpr);
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+       width: 70%;
+       background-color:var(--maincolorpr);
+    }
+}
+.MySkill .Skills .Backend .Git{
+    margin: 20px  auto;
+    display: flex;
+    width: 90%;
+    height: 9px;
+    border-radius: 5px; 
+    background-color: black;
+}
+.MySkill .Skills .Backend .Git .proGit{
+    animation-name: Git;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+}
+
+@keyframes Git{
+    from{
+        height: 9px;
+        border-radius: 5px;
+        width:0%;
+        background-color: var(--maincolorpr);
+    }
+  to{
+        height: 9px;
+        border-radius: 5px;
+        width: 78%;
+        background-color:var(--maincolorpr);
+    }
+}
+}
+@media (max-width:414px){
+    .MySkill{
+        width: 100%;
+        height:900px ;
+        height:fit-content;    
+        margin-top: 15px;
+        margin-bottom: 75px;
+    }
+    .MySkill .headSkills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .MySkill .Line{
+       display: none;
+    }
+    
+    .MySkill .headSkills h2{
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+        width: 200px;
+        color:black;
+        background-color: white;
+        border-width: 2px;
+        border-color:var(--maincolornav);
+        box-shadow: var(--maincolornav) 0px 1px 15px;
+        border-style: solid;
+    
+    }
+    .MySkill .Skills{
+        margin-top: 42px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .MySkill .Front-End{
+        border-top-left-radius: 17px;
+        border-bottom-right-radius: 17px;
+        padding-left: 7px;
+        margin-bottom: 25px;
+        background-color:var(--maincolornav);
+        color:white;
+        width:100%;
+        height: 450px;
+        box-shadow: var(--maincolornav) 0px 1px 15px;
+    }
+    .MySkill .Backend{
+        border-bottom-left-radius: 17px;
+        border-top-right-radius: 17px;
+        padding-left: 7px;
+        margin-bottom: 25px;
+        background-color:var(--maincolornav);
+        color:white;
+        width: 100%;
+        height: 450px;
+        box-shadow: var(--maincolornav) 0px 1px 15px;
+    }
+    .MySkill .Skills .Front-End h2{
+        display: flex;
+        justify-content: center;
+        margin-top:35px;
+        margin-bottom: 35px;
+    
+    }
+    .MySkill .Skills .Front-End p{
+       margin: 0px;
+       padding-left: 20px;
+       font-size: 17px;
+       font-weight: 600;
+    }
+    .MySkill .Skills .Backend h2{
+        display: flex;
+        justify-content: center;
+        margin-top:35px;
+        margin-bottom: 35px;
+        
+    }
+    .MySkill .Skills .Backend p{
+        margin: 0px;
+        padding-left: 20px;
+        font-size: 17px;
+        font-weight: 600;
+        
+    
+    }
+    .MySkill .Skills .Front-End .HTML .prohtml .Icon,.procss .Icon,.proReact .Icon,.proBootStrap .Icon,.projs .Icon,.proBootStrap .Icon,.prophp .Icon,.prodatabase .Icon , .proAnlayicAlgoritme .Icon , .proLaravel .Icon , .proGit .Icon{
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:red;
+        position: relative;
+        animation-name:htmlIcon;
+        animation-duration: 1s;
+        animation-timing-function:ease-out;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+    }
+    
+    .MySkill .Skills .Front-End .HTML{
+        margin: 20px  auto;
+        display: flex;
+        width: 93%;
+        height: 9px;
+        border-radius: 5px;
+        background-color: black;
+    }
+    .MySkill .Skills .Front-End .HTML .Value,.CSS .Value,.JavaScript .Value,.React .Value , .BootStrap .Value,.Backend .PHP .Value, .DATABASE .Value,.AnlayicAlgoritme .Value , .Laravel .Value , .Git .Value{
+        position: relative;
+        top:-24px;
+        left:-9px;
+    }
+    .MySkill .Skills .Front-End .HTML .prohtml{
+        animation-name:html;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+        border-radius: 5px;
+    }
+    @keyframes htmlIcon{
+        from{
+            top: -9px;
+            left: 0%;
+        }
+      to{
+           top: -9px;
+           left: calc(97%);
+        }
+    }
+    @keyframes html{
+        from{
+            height: 9px;
+            width:0%;
+            border-radius: 5px;
+            background-color:var(--maincolorpr);
+        }
+      to{
+           height: 9px;
+           width: 90%;
+           border-radius: 5px;
+           background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Front-End .CSS
+    {
+        margin: 20px  auto;
+        display: flex;
+        width: 93%;
+        height: 9px;
+        border-radius: 5px;
+        background-color: black;
+    
+    }
+    .MySkill .Skills .Front-End .CSS .procss{
+        animation-name:css;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+        height: 9px;
+        border-radius: 5px;
+    }
+    
+    @keyframes css{
+        from{
+        
+            width:0%;
+            background-color:var(--maincolorpr);
+            height: 9px;
+            border-radius: 5px;
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+            width: 80%;
+            background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Front-End .JavaScript{
+        margin: 20px  auto;
+        display: flex;
+        width: 93%;
+        height: 9px;
+        border-radius: 5px;
+        background-color: black;
+    }
+    .MySkill .Skills .Front-End .JavaScript .projs{
+        animation-name: javascript;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+        height: 9px;
+        border-radius: 5px;
+    }
+    
+    @keyframes javascript{
+        from{
+            height: 9px;
+            border-radius: 5px;
+            width:0%;
+            background-color:var(--maincolorpr);
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+           width: 83%;
+        
+           background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Front-End .React{
+        margin: 20px  auto;
+        display: flex;
+        width: 93%;
+        height: 9px;
+        border-radius: 5px;
+        background-color: black;
+    }
+    .MySkill .Skills .Front-End .React .proReact{
+        animation-name:React;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+        height: 9px;
+        border-radius: 5px;
+    }
+    
+    @keyframes React{
+        from{
+        
+            width:0%;
+            background-color:var(--maincolorpr);
+            height: 9px;
+            border-radius: 5px;
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+            width: 88%;
+            background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Front-End .BootStrap
+    {
+        margin: 20px  auto;
+        display: flex;
+        width: 93%;
+        height: 9px;
+        border-radius: 5px;
+        background-color: black;
+    
+    }
+    .MySkill .Skills .Front-End .BootStrap .proBootStrap{
+        animation-name:BootStrap;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+        height: 9px;
+        border-radius: 5px;
+    }
+    
+    @keyframes BootStrap{
+        from{
+        
+            width:0%;
+            background-color:var(--maincolorpr);
+            height: 9px;
+            border-radius: 5px;
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+            width:87%;
+            background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Backend .PHP{
+        margin: 20px  auto;
+        display: flex;
+        width: 90%;
+        height: 9px;
+        border-radius: 5px;
+        background-color: black;
+    }
+    .MySkill .Skills .Backend .PHP .prophp{
+        animation-name:php;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+    }
+    
+    @keyframes php{
+        from{
+            height: 9px;
+            border-radius: 5px;
+            width:0%;
+            background-color:var(--maincolorpr);
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+            width: 77%;
+            background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Backend .DATABASE
+    {
+        margin: 20px  auto;
+        display: flex;
+        width: 90%;
+        height: 9px;
+        border-radius: 5px;
+        background-color: black;
+    
+    }
+    .MySkill .Skills .Backend .DATABASE .prodatabase{
+        animation-name:database;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+    }
+    
+    @keyframes database{
+        from{
+            height: 9px;
+            border-radius: 5px;
+            width:0%;
+            background-color:var(--maincolorpr);
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+           width: 89%;
+           background-color: var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Backend .AnlayicAlgoritme{
+        margin: 20px  auto;
+        display: flex;
+        width: 90%;
+        height: 9px;
+        border-radius: 5px; 
+        background-color: black;
+    }
+    .MySkill .Skills .Backend .AnlayicAlgoritme .proAnlayicAlgoritme{
+        animation-name: AnlayicAlgoritme;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+    }
+    
+    @keyframes AnlayicAlgoritme{
+        from{
+            height: 9px;
+            border-radius: 5px;
+            width:0%;
+            background-color: var(--maincolorpr);
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+           width: 80%;
+           background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Backend .Laravel{
+        margin: 20px  auto;
+        display: flex;
+        width: 90%;
+        height: 9px;
+        border-radius: 5px; 
+        background-color: black;
+    }
+    .MySkill .Skills .Backend .Laravel .proLaravel{
+        animation-name: Laravel;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+    }
+    
+    @keyframes Laravel{
+        from{
+            height: 9px;
+            border-radius: 5px;
+            width:0%;
+            background-color: var(--maincolorpr);
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+           width: 70%;
+           background-color:var(--maincolorpr);
+        }
+    }
+    .MySkill .Skills .Backend .Git{
+        margin: 20px  auto;
+        display: flex;
+        width: 90%;
+        height: 9px;
+        border-radius: 5px; 
+        background-color: black;
+    }
+    .MySkill .Skills .Backend .Git .proGit{
+        animation-name: Git;
+        animation-duration: 3s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+    }
+    
+    @keyframes Git{
+        from{
+            height: 9px;
+            border-radius: 5px;
+            width:0%;
+            background-color: var(--maincolorpr);
+        }
+      to{
+            height: 9px;
+            border-radius: 5px;
+            width: 78%;
+            background-color:var(--maincolorpr);
+        }
+    }
+    }

@@ -1,0 +1,228 @@
+@media (min-width:415px){
+.MainHome,.divimage{
+    background-color: #5E72EB;
+    width:100%;
+    margin-bottom: 150px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow:  var(--maincolornav) 0px 1px 9px; 
+
+}
+.MainHome .divimage img{
+    width:100%;
+     height:100% ;
+     opacity:0.1;
+     border-top-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+}
+.Home{
+    position: absolute;
+    top: 230px;
+    left: 570px;
+    height: 300px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    box-shadow:  #fff 0px 1px 15px; 
+    border-color: rgb(255, 255, 255);
+    border-width: 6px;
+    border-style: solid;
+}
+.Home .Title P{
+    margin-left: 0px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.Home .Title h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.Home .Button{
+    margin-top: 40px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home .Button .DownloadCv1 ,.HireMy{
+  
+    width:calc(93%/2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    color:rgb(255, 255, 255);
+  
+}
+.Home .Button .DownloadCv1 a ,.HireMy a{
+  
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+  
+}
+.Home .Button .DownloadCv1{
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(248, 37, 37);
+}
+.Home .Button .DownloadCv1:hover{
+    opacity: 0.7;
+    
+}
+.Home .Button .HireMy{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+     border-color: red;
+     border-width: 1px;
+     border-style: solid;
+}
+.Home .Button .HireMy:hover{
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    background-color:rgb(248, 37, 37);
+}
+.MainHome .socialmedia1{
+    width: 230px;
+    position: absolute;
+    float: right;
+    right: 6%;
+    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.MainHome .socialmedia1 a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    background-color:rgb(243, 56, 56);
+    text-decoration: none;
+}
+.MainHome .Buttonmobile{
+    display: none;
+}
+}
+
+@media (max-width:414px){
+    .MainHome,.divimage{
+        margin-top: 15px;
+        background-color: #5E72EB;
+        width:100%;
+        height: 475px;
+        margin-bottom: 47px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow:  var(--maincolornav) 0px 1px 9px; 
+    
+    }
+    .MainHome .divimage img{
+         width:100%;
+         height:100%;
+         opacity:0.1;
+         border-top-left-radius: 30px;
+         border-bottom-right-radius: 30px;
+    }
+    .Home{
+        position: absolute;
+        top:185px;
+        left: 92px;
+        height: 195px;
+        width: 226px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        box-shadow: #fff 0px 1px 15px;
+        border-color: rgb(255, 255, 255);
+        border-width: 6px;
+        border-style: solid;
+    }
+    .Home .Title P{
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+    
+    }
+    .Home .Title h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .MainHome .Buttonmobile{
+        width: 230px;
+        position: absolute;
+        top: 410px;
+        left: 90px;
+    }
+    .Home .Button{
+     display: none;
+    }
+    .MainHome .Buttonmobile .DownloadCv1 ,.HireMy{
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 43px;
+        color:rgb(255, 255, 255);
+        margin-bottom: 18px;
+      
+    }
+    .MainHome .Buttonmobile .DownloadCv1 a ,.HireMy a{
+      text-decoration: none;
+      color:rgb(255, 255, 255);
+      
+    }
+    .MainHome .Buttonmobile .DownloadCv1{
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: rgb(248, 37, 37);
+    }
+    .MainHome .Buttonmobile .DownloadCv1:hover{
+        opacity: 0.7;
+        
+    }
+    .MainHome .Buttonmobile .HireMy{
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+         border-color: red;
+         border-width: 1px;
+         border-style: solid;
+    }
+    .MainHome .Buttonmobile .HireMy:hover{
+        border-color: red;
+        border-width: 1px;
+        border-style: solid;
+        background-color:rgb(248, 37, 37);
+    }
+    .MainHome .socialmedia1{
+        width: 200px;
+        position: absolute;
+        float: right;
+        right: 30px;
+        top: 110px;
+        left: 178px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .MainHome .socialmedia1 a{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(255, 255, 255);
+        background-color:rgb(243, 56, 56);
+        text-decoration: none;
+    }
+  
+    
+}

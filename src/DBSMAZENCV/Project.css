@@ -1,0 +1,94 @@
+@media(min-width:415px)
+{
+.Project
+{ 
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 210px;
+}
+.projecthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.myproject  .projecthead .Line{
+    background-color: black;
+    width: 45%;
+    height: 2px;
+}
+
+.myproject  .projecthead h2{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width:170px;
+    color:black;
+    background-color: white;
+    border-width: 2px;
+    border-color:var(--maincolornav);
+    box-shadow: var(--maincolornav) 0px 1px 15px;
+    border-style: solid;
+}
+
+.myproject .Project div{
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 15px;
+    width:270px ;
+    height: 220px;   
+
+    background-color: rgb(255, 255, 255);
+    
+}
+}
+@media(max-width:414px)
+{
+.Project
+{ 
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+.projecthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.myproject  .projecthead .Line{
+  display: none;
+}
+
+.myproject  .projecthead h2{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    width: 200px;
+    color:black;
+    background-color: white;
+    border-width: 2px;
+    border-color:var(--maincolornav);
+    box-shadow: var(--maincolornav) 0px 1px 15px;
+    border-style: solid;
+}
+
+.myproject .Project div{
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 15px;
+    width:270px ;
+    height: 220px;   
+    margin-bottom: 27px;
+    background-color: rgb(255, 255, 255);
+    
+}
+}

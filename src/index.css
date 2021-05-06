@@ -1,0 +1,121 @@
+@media (min-width:415px){
+body {
+  background-color: var(--mainbody);
+  color:var(--mainfontcolor);
+}
+html{
+  scroll-behavior: smooth;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px;
+  font-family:Ubuntu, sans-serif;
+  
+}
+.MainContaint{
+  width: 100%;
+  display: flex;
+  margin: 20px auto;
+}
+.Containt{
+  width:990px;
+  margin-left: 270px;  
+}
+:root {
+  /*#F8B091;*/
+  --maincolor:#C1CBE4;
+  --maincolorpr:rgb(255,255,255);
+  --mainheader:#C1CBE4;
+  --maincolornav:#5C7CEB;
+  --mainfontcolor:rgb(255,255,255);
+  --mainbody:#FFFFFF;
+  --mainbtn:#5AB9EA;
+
+}
+}
+@media (max-width:414px) {
+  body {
+    background-color: var(--mainbody);
+    color:var(--mainfontcolor);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+    font-family:Ubuntu, sans-serif;
+    
+  }
+  .MainContaint{
+    width: 100%;
+    display: flex;
+    position: fixed;
+  }
+  .Containt{
+    width:330px;
+    margin-left: 35px;
+    margin: 15px auto;
+  
+  }
+  .newClass{
+        animation-name:Nav;
+        animation-duration: 1s;
+        animation-timing-function:linear;
+        animation-iteration-count: 1;
+        animation-fill-mode:both;
+         margin-right: 10px;
+    }
+   
+    @keyframes Nav1{
+        from{
+           position: relative;
+           left:310px;
+           
+        }
+      to{
+          position: relative;
+           left:10px;
+        }
+    }
+    .newClass1{
+      animation-name:Nav1;
+      animation-duration: 1s;
+      animation-timing-function:linear;
+      animation-iteration-count: 1;
+      animation-fill-mode:both;
+       margin-right: 10px;
+
+  }
+ 
+  @keyframes Nav{
+      from{
+         position: relative;
+         left:10px;
+         
+      }
+    to{
+        position: relative;
+         left:310px;
+      }
+  }
+  :root {
+    /*#F8B091;*/
+    --maincolor:#C1CBE4;
+    --maincolorpr:rgb(255,255,255);
+    --mainheader:#C1CBE4;
+    --maincolornav:#5C7CEB;
+    --mainfontcolor:rgb(255,255,255);
+    --mainbody:#FFFFFF;
+    --mainbtn:#5AB9EA;
+  
+  }
+}

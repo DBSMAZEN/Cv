@@ -1,0 +1,192 @@
+@media (min-width:415px){
+.section{
+    background-color: rgb(255,255,255);
+    color:black;
+    padding-left: 70px !important;
+    padding-right: 40px !important;
+    width: 850px;
+    height: 590px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 15px;
+    margin-bottom: 150px;
+ }
+ .section .headabout{
+     position: relative;
+     top:100px;
+ }
+ .section .headabout .line{
+     width: 40px;
+     border-bottom-style: solid;
+     border-bottom-width: 5px;
+     border-bottom-color: red;
+     margin-top: 13px;
+   
+ }
+ 
+ .section .aboutMy{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     margin-top: 170px;
+ }
+ 
+ .section .img img{
+     width:150px;
+     height:140px;
+     border-radius: 50%;
+     margin-right: 20px;
+     margin-bottom: 100px;
+ 
+ }
+   .section .about p{
+     padding:7px;
+     text-transform: none;
+     text-indent:10px;
+     font-weight: 700;
+     line-height: 30px;
+ 
+   }
+ .section .maintable{
+     display: flex;
+     margin-left: 30px;
+ }
+ .section .maintable table
+ {
+     border-Top-style: solid;
+     border-bottom-style: solid;
+     border-color: red;
+     margin-right: 10px;
+     font-size: 15.5px;
+     font-weight: 600;
+ }
+ .section  .maintable table tr td{
+     padding-right: 10px;
+     height: 40px;
+ }
+ .section  .maintable table tr .td{
+        width: 200px;
+        border-right-width: 3px;
+        border-top-style: none;
+        border-color: red;
+        border-style: solid;
+        border-top-style: none;
+        border-left-style: none;
+        border-bottom-style: none;
+ }
+ 
+ .section  .maintable table tr .Icons{
+   display: flex;
+   align-items: center;
+   width:fit-content;
+   margin: 0px;
+
+}
+.section  .maintable table tr .Icons .Icon{
+    position: relative;
+    top: 0px;
+    left: -2px;
+    width: 25px;
+    color: red;
+}
+}
+@media (max-width:414px)
+{
+    .section{
+        background-color: rgb(255,255,255);
+        color:black;
+        padding-left: 15px !important;
+        width:100%;
+        height: 835px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 15px;
+        margin-bottom: 75px;
+     }
+     .section .headabout{
+        position: relative;
+        top:55px;
+    }
+    .section .headabout .line{
+        width: 40px;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-color: red;
+        margin-top: 13px;
+      
+    }
+    
+    .section .aboutMy{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        margin-top: 90px;
+    }
+    
+    .section .img img{
+        width:150px;
+        height:140px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-bottom: 100px;
+        width: 160px;
+        height: 155px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    
+    }
+    .section .about {
+       width: 260px;
+    }
+    .section .about p{
+  
+        text-transform: none;
+        text-indent:10px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: -20px;
+        margin-top: 0px;
+        margin-bottom: 27px;
+        
+      }
+    .section .maintable{
+        display: flex;
+        margin-left: -19px;
+      
+    }
+    .section .maintable table
+    {
+        width: 263px;
+        border-Top-style: solid;
+        border-bottom-style: solid;
+        border-color: red;
+        margin-right: 10px;
+        font-size: 15.5px;
+        font-weight: 600;
+        
+    }
+    .section  .maintable table tr td{
+        height: 38px;
+    }
+    .section  .maintable table tr .td{
+          
+          display: none;
+    }
+    
+    .section  .maintable table tr .Icons{
+      display: flex;
+      align-items: center;
+      width:fit-content;
+      margin: 0px;
+   
+   }
+   .section  .maintable table tr .Icons .Icon{
+       position: relative;
+       top: 0px;
+       left: -2px;
+       width: 25px;
+       color: red;
+   
+   }
+
+}
